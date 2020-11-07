@@ -28,7 +28,10 @@ for file in folder:
     with open(path + file) as fl:
         for line in fl:
             value = line.strip()
-
+            if type(weight) == int:
+              pass
+            elif:
+              return int(''.join(i for i in weight.split('lbs')[0] if i.isdigit()))
             fb[keys[keycount]] = value
             keycount += 1
     print(fb)
