@@ -10,7 +10,7 @@ import requests, os
 
 url = "http://localhost/upload/"
 path = '~/supplier-data/images'
-content = os.listdir(path)
+pics = os.listdir(path)
 
 for pic in pics:
     with open('~/supplier-data/images', 'rb') as opened:
