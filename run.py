@@ -12,8 +12,9 @@ http://[linux-instance-external-IP]/fruits using the Python requests library.
 '''
 
 
-import os
+import os, sys
 import requests
+import json
 
 
 # Path to the data
@@ -32,6 +33,13 @@ for file in folder:
               pass
             elif:
               return int(''.join(i for i in weight.split('lbs')[0] if i.isdigit()))
+        
+            #iterate through the description file names
+            
+            #split the name without extension with splitext
+            
+            #grab the name and add .jpeg to it
+        
             fb[keys[keycount]] = value
             keycount += 1
     print(fb)
