@@ -13,4 +13,4 @@ for my final exam
 
 6. emails.py: for generating the emails with the pdf report attachments
 
-7. I also made a health_check.py that is monitoring the system every 60 seconds and sends errors for given conditions as CPU, disk space and memory usage or if localhost cannot be resolved to 127.0.0.1. Unfortunately the time ran out I couldn't test it.
+7. health_check.py: monitors the system every 60 seconds and sends errors for given conditions as CPU, disk space and memory usage or if localhost cannot be resolved to 127.0.0.1. Unfortunately the time ran out I couldn't test it.
