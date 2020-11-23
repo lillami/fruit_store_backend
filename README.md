@@ -11,4 +11,4 @@ for my final exam
 
 5. report_email.py: contains main() for reports.py and sends the email out
 
-6. emails.py: forgenerating the emails with the pdf report attachments
+6. emails.py: for generating the emails with the pdf report attachments
