@@ -10,3 +10,5 @@ for my final exam
 4. reports.py: will create pdf reports that will be sent regularly later on.
 
 5. report_email.py: contains main() for reports.py and sends the email out
+
+6. emails.py: forgenerating the emails with the pdf report attachments
